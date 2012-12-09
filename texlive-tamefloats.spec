@@ -53,3 +53,11 @@ further information.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Aug 13 2012 Paulo Andrade <pcpa@mandriva.com.br> v0.42-1
++ Revision: 814514
+- Import texlive-tamefloats
+- Import texlive-tamefloats
+
