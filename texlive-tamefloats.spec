@@ -6,7 +6,7 @@
 # catalog-version v0.42
 Name:		texlive-tamefloats
 Version:	v0.42
-Release:	8
+Release:	9
 Summary:	Experimentally use \holdinginserts with LaTeX floats
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tamefloats
