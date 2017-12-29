@@ -1,12 +1,6 @@
-# revision 27345
-# category Package
-# catalog-ctan /macros/latex/contrib/tamefloats
-# catalog-date 2012-06-21 14:54:52 +0200
-# catalog-license lppl1.3
-# catalog-version v0.42
 Name:		texlive-tamefloats
-Version:	v0.42
-Release:	9
+Version:	0.42
+Release:	1
 Summary:	Experimentally use \holdinginserts with LaTeX floats
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tamefloats
@@ -53,11 +47,3 @@ further information.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Aug 13 2012 Paulo Andrade <pcpa@mandriva.com.br> v0.42-1
-+ Revision: 814514
-- Import texlive-tamefloats
-- Import texlive-tamefloats
-
