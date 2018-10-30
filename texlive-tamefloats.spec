@@ -1,6 +1,6 @@
 Name:		texlive-tamefloats
 Version:	0.42
-Release:	2
+Release:	3
 Summary:	Experimentally use \holdinginserts with LaTeX floats
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tamefloats
