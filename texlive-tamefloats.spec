@@ -1,12 +1,12 @@
 Name:		texlive-tamefloats
-Version:	0.42
-Release:	3
+Version:	27345
+Release:	1
 Summary:	Experimentally use \holdinginserts with LaTeX floats
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tamefloats
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tamefloats.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tamefloats.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tamefloats.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tamefloats.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -23,12 +23,12 @@ maybe just a summary of previous work). The files provide
 further information.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -40,7 +40,7 @@ further information.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
