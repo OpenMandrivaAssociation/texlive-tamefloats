@@ -3,7 +3,7 @@ Version:	27345
 Release:	2
 Summary:	Experimentally use \holdinginserts with LaTeX floats
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tamefloats
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/tamefloats
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tamefloats.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tamefloats.doc.r%{version}.tar.xz
